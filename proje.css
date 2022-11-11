@@ -1,0 +1,12 @@
+body {
+    background: 	#000000;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}

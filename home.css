@@ -32,10 +32,6 @@ span#burguer:hover{
     list-style: none;
 }
 
-.lista li{
-
-}
-
 #burguer {
     z-index: 999;
     position: absolute;
@@ -91,7 +87,7 @@ nav ul li a:hover{
     }
 
     .lista {
-        
+        text-align: center;
     }
 
     nav {
@@ -120,6 +116,9 @@ body{
     background: 	#000000;
     color: white;
     font-family: 'Lato', sans-serif;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -148,7 +147,7 @@ header{
 }
 
 .post1{
-    background: #000000;
+    background: #000000da;
     padding: 15px;
     border: 3px solid #8700FF;
     margin: 0;
@@ -157,15 +156,24 @@ header{
     text-decoration: none;
 }
 .post2{
-    background: #000000;
+    background: #000000da;
     padding: 15px;
     border: 3px solid #8700FF;
     margin: 0;
     margin-bottom: 15px;
     border-radius: 5px;
 }
+
+/*.css_icon {
+    width: 9rem;
+    height: 6rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}*/
+
 .post3{
-    background: #000000;
+    background: #000000da;
     padding: 15px;
     border: 3px solid #8700FF;
     margin: 0;

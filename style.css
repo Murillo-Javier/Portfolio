@@ -11,7 +11,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+    img {
+
+        
+    }
+
 a {
     
     color: #8700FF;
@@ -19,8 +28,8 @@ a {
 .btn-link {
     text-decoration: none;
     border: 1px solid #8700FF;
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
