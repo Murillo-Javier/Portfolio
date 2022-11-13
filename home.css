@@ -113,8 +113,8 @@ nav ul li a:hover{
         text-decoration: none;
     }
 
+} 
 
-}
 body{
     background: 	#000000;
     color: white;
@@ -139,29 +139,51 @@ header{
     display: flex;
     flex-direction: column;
     margin:0 auto;
-    max-width: 1024px;
-    padding: 40px;
+    max-width: 800px;
+    padding-top: 40px;
 }
 
 .img_ft{
-
     width: 110px;
 }
 
 .post1{
+    display: flex;
     background: #00000063;
     padding: 15px;
     margin: 0;
     margin-bottom: 15px;
     border-radius: 5px;
     text-decoration: none;
+    gap: 50px;
+    max-width: 800px;
 }
+
+
+
+.grid1 {
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:1024px) {
+
+    .post1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .grid1 {
+        flex-direction: column ;
+    }
+}
+
 .post2{
     background: #00000001;
-    padding: 15px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 15px;
     border-radius: 5px;
+    max-width: 800px;
 }
 
 .icons {
@@ -170,17 +192,17 @@ header{
 
 .icons1 {
     transform: translatey(0px);
-    animation: float 3s ease-in-out infinite;
+    animation: float 3.5s ease-in-out infinite;
 }
 
 .icons2 {
     transform: translatey(0px);
-    animation: float 4s ease-in-out infinite;
+    animation: float 4.1s ease-in-out infinite;
 }
 
 .icons3 {
     transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
+    animation: float 3.2s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -195,14 +217,52 @@ header{
     }
 }
 
-.post3{
-    background: #000000da;
+
+
+.post3 {
+    display: grid;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.img_certi {
+    border-radius: 15px;
+    width: 550px;
+}
+
+.post4 {
+    background: #000000c5;
     padding: 15px;
     border: 3px solid #8700FF;
     margin: 0;
     margin-bottom: 15px;
     border-radius: 5px;
+    place-items: center;
+    max-width: 800px;
+    margin-inline: auto;
 }
+
+@media(max-width:1024px) {
+    .post4{
+        max-width: max-content;
+    }
+
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+@media(max-width:1024px) {
+    .grid4 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
 .img_logo2{
 
     /*width: 100%; se caso for uma imagem*/
@@ -215,6 +275,7 @@ header{
 .post_contet{
     margin: 0;
     margin-bottom: 15px;
+
 }
 
 #title{
