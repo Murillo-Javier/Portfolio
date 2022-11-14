@@ -1,12 +1,22 @@
 *{ /*isso é padrão*/
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
+body{
+    background: 	#000000;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* ------------------------------------------------- */
+
 span#burguer{
-    /*background-color: rgba(255, 0, 0, 0.349);*/
     display: block;
     justify-content: flex-end;
     font-size: 38px;
@@ -113,22 +123,9 @@ nav ul li a:hover{
         text-decoration: none;
     }
 
-} 
-
-body{
-    background: 	#000000;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    background-image: url(/img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
 }
 
-header{
-    padding: 1rem;
-    
-}
+/* ------------------------------------------------- */
 
 .menu_header{
     background-color: #0000001a;
@@ -147,6 +144,13 @@ header{
     width: 110px;
 }
 
+.my_ft{
+    border-radius: 50%;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 100px;
+}
+
 .post1{
     display: flex;
     background: #00000063;
@@ -157,8 +161,9 @@ header{
     text-decoration: none;
     gap: 50px;
     max-width: 800px;
-}
+    margin: 0 auto;
 
+}
 
 
 .grid1 {
@@ -178,17 +183,9 @@ header{
     }
 }
 
-.post2{
-    background: #00000001;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    max-width: 800px;
-    padding-left: 99px;
-}
-
 .icons {
-    padding-top: 15px;
+    padding-top: 55px;
+    padding-bottom: 40px;
 }
 
 .icons1 {
@@ -218,21 +215,9 @@ header{
     }
 }
 
+/* ------------------------------------------------- */
 
-
-.post3 {
-    display: grid;
-    justify-content: center;
-    padding-top: 55px;
-    padding-bottom: 40px;
-}
-
-.img_certi {
-    border-radius: 15px;
-    width: 550px;
-}
-
-.post4 {
+.post2 {
     background: #000000c5;
     padding: 15px;
     border: 3px solid #8700FF;
@@ -245,43 +230,28 @@ header{
 }
 
 @media(max-width:1024px) {
-    .post4{
+
+    .post2{
         max-width: max-content;
     }
 
 }
 
-.grid4 {
+.grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
 @media(max-width:1024px) {
-    .grid4 {
+
+    .grid2 {
         grid-template-columns: 1fr;
         gap: 40px;
     }
 }
 
-.img_logo2{
-
-    /*width: 100%; se caso for uma imagem*/
-    border-radius: 50%;
-    margin-bottom: 15px;
-    align-items: center;
-    width: 100px;
-}
-
-.post_contet{
-    margin: 0;
-    margin-bottom: 15px;
-
-}
-
-#title{
-    color: #8700FF;
-}
+/* ------------------------------------------------- */
 
 .contacts_list{
     list-style-type: none;
